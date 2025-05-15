@@ -1,0 +1,65 @@
+body{
+    background-color: #faebd7;
+    margin-top: 20%;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    justify-self: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image{
+    height: 60px;
+}
+
+.buttons{
+    display: flex;
+    gap: 0;
+    padding: 10px;
+    height: 2rem;
+}
+
+.buttons button{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+}
+
+
+.weather-temp{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.temperature{
+    font-size: 25px;
+}
+
+h3{
+    text-align: left;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+.temp{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+}
+.tempDetails{
+    display: flex;
+    flex-direction: column;
+}
