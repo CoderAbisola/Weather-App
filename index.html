@@ -1,4 +1,32 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="weather">
+    <h1>My Weather App</h1>
+    <p>Find Weather of Your City</p>
+    <div class="buttons">
+      <!-- <input type="text" id="cityInput" placeholder="Enter city name" onkeypress="getLocation()"/> -->
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getLocation()">Search</button>
+    </div>
+    <p id="demo"></p>
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <head>
     <title>API</title>
     <link rel= "stylesheet" href="/styles.css">
@@ -11,13 +39,13 @@
         <img src="images/cloudd.svg" class="image">
         <p>Find Weather of your City</p>
         <div class="buttons">
-            <input type="text" placeholder="City">
+            <input type="text" id="cityInput" placeholder="City">
             <button onclick="getLocation()">Search</button>
         </div>
         <p id="demo"></p>
     </div>
 </body>
 <script src="search.js"></script>
-</html>
+</html> -->
 
 
